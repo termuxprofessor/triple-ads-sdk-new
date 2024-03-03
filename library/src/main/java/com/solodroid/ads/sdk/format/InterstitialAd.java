@@ -80,6 +80,7 @@ public class InterstitialAd {
         private String mopubInterstitialId = "";
         private String ironSourceInterstitialId = "";
         private String wortiseInterstitialId = "";
+        private String alienAdsInterstitialId = "";
         private int placementStatus = 1;
         private int interval = 3;
         private boolean legacyGDPR = false;
@@ -163,6 +164,11 @@ public class InterstitialAd {
 
         public Builder setWortiseInterstitialId(String wortiseInterstitialId) {
             this.wortiseInterstitialId = wortiseInterstitialId;
+            return this;
+        }
+
+        public Builder setAlienAdsInterstitialId(String alienAdsInterstitialId) {
+            this.alienAdsInterstitialId = alienAdsInterstitialId;
             return this;
         }
 

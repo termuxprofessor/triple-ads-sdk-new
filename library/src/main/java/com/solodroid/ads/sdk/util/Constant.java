@@ -17,6 +17,8 @@ public class Constant {
     public static final String APPLOVIN_DISCOVERY = "applovin_discovery";
     public static final String IRONSOURCE = "ironsource";
     public static final String WORTISE = "wortise";
+    public static final String ALIEN = "alien";
+    public static final String ALIEN_ADS = "alien_ads";
     public static final String NONE = "none";
     //mopub ads is deprecated and has been acquired by applovin
     public static final String MOPUB = "mopub";
